@@ -26,6 +26,7 @@ const CardDetails = [
         para: "Lorem ipsum dolor sit amet consectetur.",
         para1: "Sollicitudin sem semper sit commodo eros",
         para2: "mattis morbi fermentum.",
+        text: "FDEBD0",
         button: "Learn More"
     },
 
@@ -36,6 +37,7 @@ const CardDetails = [
         para: "Lorem ipsum dolor sit amet consectetur.",
         para1: "Sollicitudin sem semper sit commodo eros",
         para2: "mattis morbi fermentum.",
+        text: "FDEBD0",
         button: "Learn More"
     },
 

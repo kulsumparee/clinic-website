@@ -24,13 +24,13 @@ const NavBar = () => {
 
       
     <style.NavContent className= "  absolute  z-10 left-0  text-white flex items-center justify-between  lg:flex md:flex lg:flex-1 ">
-      <div className={`lg:hidden block absolute justify-center  border-2 text-center left-[60%] z-10 top-[92%] w-[40%] h-90   bg-slate-700 transition ${menuOpen ? 'block' : 'hidden'} `}>
+      <div className={`lg:hidden  absolute justify-center  border-2 text-center left-[60%] z-10 top-[92%] sm:w-[25%] md:w-[30%] lg:w-[40%]    bg-slate-700 transition ${menuOpen ? 'block' : 'hidden'} `}>
         <ul className=''>
-          <li className='my-4 py-4  border-b border-slate-600 hover:bg-slate-200 hover:text-black hover:rounded cursor-pointer'>Home</li>
-          <li className='my-4 py-4 border-b border-slate-600 hover:bg-slate-200 hover:text-black  hover:rounded cursor-pointer'>Services</li>
-          <li className='my-4 py-4 border-b border-slate-600 hover:bg-slate-200 hover:text-black  hover:rounded cursor-pointer'>Our Team</li>
-          <li className='my-4 py-4 border-b border-slate-600 hover:bg-slate-200 hover:text-black  hover:rounded cursor-pointer'>Contact Us</li>
-          <li className='my-4 py-4 border-b border-slate-600 hover:bg-slate-200 hover:text-black  hover:rounded cursor-pointer'>FAQs</li>
+          <li className=' py-4  border-b border-slate-600 hover:bg-slate-200 hover:text-black hover:rounded cursor-pointer'>Home</li>
+          <li className=' py-4 border-b border-slate-600 hover:bg-slate-200 hover:text-black  hover:rounded cursor-pointer'>Services</li>
+          <li className=' py-4 border-b border-slate-600 hover:bg-slate-200 hover:text-black  hover:rounded cursor-pointer'>Our Team</li>
+          <li className=' py-4 border-b border-slate-600 hover:bg-slate-200 hover:text-black  hover:rounded cursor-pointer'>Contact Us</li>
+          <li className=' py-4 border-b border-slate-600 hover:bg-slate-200 hover:text-black  hover:rounded cursor-pointer'>FAQs</li>
 
 
         </ul>
@@ -39,12 +39,15 @@ const NavBar = () => {
 
 
       <style.ListItems className="flex items-center  ">
-        <Image src={Logo} alt='logo' width={68} height={68} layout='fixed' />
+        <div>
+
+        <Image  src={Logo} alt='logo'  layout='fixed' className=' amtd sm:w-9 md:w-10  lg:w-10 xl:w-20' />
+        </div>
+
         <style.Heading className="ml-4">Logo</style.Heading>
       </style.ListItems>
       <ul className=" gap-14 cursor-pointer hidden lg:flex   ">
-        <Link href="/"><li>Home</li></Link>
-        
+        <Link href="/"><li>Home</li></Link>  
         <Link href="/Service"><li>Services</li></Link>
         <Link href="/OurTeam"><li>Our Team</li></Link>
         <Link href="/ContactUs"><li>Contact Us</li></Link>

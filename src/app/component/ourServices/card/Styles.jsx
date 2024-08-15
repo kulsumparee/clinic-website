@@ -24,7 +24,8 @@ export const Card = styled.div`
 export const Carddiv = styled.div`
 
       width: 100%;
-   height: 400px;
+  
+      
    button{
     border: 2px solid #D35400;
     padding: 10px 16px;

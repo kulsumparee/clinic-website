@@ -12,19 +12,22 @@ import { Footer } from './Styles'
 const FooterSection = () => {
   
   return (
-      <Footer className=' '>
-          <div className='  md:flex sm:block  justify-between mx-8 '>
-              <div className=' w-[25%] '>
+      <Footer className=' sm:block md:block lg:flex justify-between  '>
+          
+              <div className=' sm:w-full md:w-15% lg:w-[25%] '>
                   <div className=' flex gap-4 items-center mb-5'>
                       <Image src={logo} alt='logo' />
                       <h1 className=' font-bold text-lg'>Logo</h1>
                   </div>
                   <div>
-                      <p className=' '>Lorem ipsum dolor sit amet consectetur. Faucibus arcu ultrices gravida et dictumst duis gravida odio semper. Integer potenti viverra et interdum lobortis amet nisi lorem. Amet sed sit risus dictum dolor. Sem enim eget ac morbi placerat.</p>
+                  <p className=' '>Lorem ipsum dolor sit amet consectetur.
+                      Faucibus arcu ultrices gravida et dictumst duis gravida odio semper.
+                      Integer potenti viverra et interdum lobortis amet nisi lorem.
+                      Amet sed sit risus dictum dolor. Sem enim eget ac morbi placerat.</p>
                   </div>
               </div>
 
-              <div className=''>
+              <div className=' sm:mt-20 md:mt-20 lg:mt-0'>
                   <h1 className=' font-bold text-lg'>Features</h1>
 
                   <ul className=' mt-5'>
@@ -37,7 +40,7 @@ const FooterSection = () => {
 
               </div>
 
-              <div className=''>
+          <div className='sm:mt-40 md:mt-20 lg:mt-0'>
                   <h1 className=' font-bold text-lg'>Follow Us</h1>
                   <div className=' flex mt-10 gap-3'>
                       <Image src={icon1} alt='image' />
@@ -48,7 +51,7 @@ const FooterSection = () => {
 
 
               </div>
-         </div>
+        
       </Footer>
   )
 }

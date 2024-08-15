@@ -11,8 +11,8 @@ const TeamComponent = () => {
             <div className=' text-center'>
 
                 <div className=' items-center flex flex-col '>
-                    <Title className=' sm:text-lg md:text-2xl  xl:text-[40px] font-bold'>Meet Our Team</Title>
-                    <Image src={LineImg} alt='image' className=' w-[20%]' />
+                    <Title className='text-[40px] font-bold'>Meet Our Team</Title>
+                    <Image src={LineImg} alt='image' className=' ' />
                 </div>
 
                 <Para className=' mt-10  sm:text-sm md:text-sm xl:text-xl '>Lorem ipsum dolor sit amet consectetur.
